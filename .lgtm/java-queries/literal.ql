@@ -5,6 +5,7 @@
  * @kind problem
 */
 import java
+import MyStringLiteral
 
-from StringLiteral s
+from MyStringLiteral s
 select s.getLocation(), "There is a string literal"
